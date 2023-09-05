@@ -1,0 +1,801 @@
+@font-face {
+    font-family: "Fredoka";
+    src: url(../fonts/Fredoka/Fredoka-Medium.ttf) format(truetype);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Fredoka";
+    src: url(../fonts/Fredoka/Fredoka-Regular.ttf) format(truetype);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Fredoka";
+    src: url(../fonts/Fredoka/Fredoka-SemiBold.ttf) format(truetype);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Fredoka";
+    src: url(../fonts/Fredoka/Fredoka-Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Medium.ttf) format(truetype);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format(truetype);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Hind Madurai";
+    src: url(../fonts/Hind_Madurai/HindMadurai-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Hind Madurai";
+    src: url(../fonts/Hind_Madurai/HindMadurai-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Hind Madurai";
+    src: url(../fonts/Hind_Madurai/HindMadurai-Regular.ttf);
+    font-weight: 500;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+footer a
+{
+    color: #ffffff;
+}
+ul , ol
+{
+    list-style: none;
+}
+.container
+{
+    width: 1125px;
+    margin: 0 auto;
+}
+header
+{
+    background-color: #F2CEDA;
+}
+.header_container
+{
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar_menu_items
+{
+    display: flex;
+    gap: 40px;
+}
+.topbar_menu_items .topbar_menu_item
+{
+    font-family:Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #150101;
+}
+.topbar_menu_items .topbar_menu_item:hover
+{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #D23166;
+}
+.header_container button
+{
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    border: 2px transparent solid;
+    background-color: #D23166;
+    color: #ffffff;
+    text-transform: capitalize ;
+
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+.header_container button:hover
+{
+    border: 2px #D23166 solid;
+    color: #D23166;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.home
+{
+    background-color: #F2CEDA;
+    padding-bottom: 139px;
+}
+.home_container
+{
+    display: flex;
+}
+.home .homepage_desc
+{
+    padding-top: 196px;
+    width: 80%;
+}
+.home .homepage_desc h3
+{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+.home .homepage_desc h1
+{
+    font-family: Fredoka;
+    font-size: 57px;
+    font-weight: 400;
+    line-height: 69px;
+    letter-spacing: 0em;
+    margin: 0;
+    margin-bottom: 35px;
+    color: #0F0101;
+}
+.home .homepage_desc span
+{
+    font-family: Fredoka;
+    font-size: 57px;
+    font-weight: 500;
+    line-height: 69px;
+    letter-spacing: 0em;
+    color: #D23166;
+}
+.home .homepage_desc p
+{
+    width: 523px;
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-weight: 400;   
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+    color: #0F0101;
+}
+.home .homepage_desc button
+{
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    border: 2px transparent solid;
+    background-color: #D23166;
+    color: #ffffff;
+    text-transform: capitalize ;
+
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+.home .homepage_desc button:hover
+{
+    border: 2px #D23166 solid;
+    color: #D23166;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.home .homepage_img img
+{
+    padding-top: 150px;
+    width: 697px;
+}
+.about
+{
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+}
+.about .cardbox
+{
+    width: 1125px;
+    margin: 0 auto;
+    display: flex;
+    gap: 39px;
+}
+.about .cardbox .card
+{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.about .cardbox .card h1
+{
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+.about .cardbox .card p
+{
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+.about .cardbox .card:nth-child(4) h1
+{
+    color: transparent;
+}
+.about .cardbox .card:nth-child(4) img 
+{
+    width: 44px;
+}
+.oatmea
+{
+    width: 100%;
+    height: 544px;
+    padding-top: 141px;
+    padding-left: 146px;
+    background-color: #F8EDF0;
+    display: flex;
+}
+.oatmea .oatmea_desc
+{
+    width: 442px;
+}
+.oatmea .oatmea_desc h1
+{
+    width: 70%;
+    margin-bottom: 16px;
+    font-family: Hind Madurai;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #150101;
+}
+.oatmea .oatmea_desc p
+{
+    width: 472px;
+    margin-bottom: 35px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #150101;
+}
+.oatmea .oatmea_desc button
+{
+    width: 165px;
+    height: 49.13494873046875px;
+    border: 2px transparent solid;
+    border-radius: 5px;
+    background-color: #D64374;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+.oatmea .oatmea_desc button:hover
+{
+    border:2px solid #D64374;
+    background-color: transparent;
+    color: #D64374;
+    transition: 0.3s;
+}
+.oatmea .oatmea_img
+{
+    /* position: relative; */
+}
+.oatmea .oatmea_img img
+{
+    position: absolute;
+    width: 665px;
+    top: 1190px;
+    left: 628px;
+}
+.feedback
+{
+    width: 100%;
+    padding-bottom: 149px;
+    padding-top: 137px;
+}
+.feedback .feedback_header
+{
+    text-align: center;
+}
+.feedback .feedback_header h1
+{
+    font-family: Hind Madurai;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    margin-bottom: 64px;
+}
+.feedback .feedback_header .feedback_menu
+{
+    display: flex;
+    justify-content: center;
+}
+.feedback .feedback_header .feedback_menu_items
+{
+    display: flex;
+    gap: 40px;
+   
+}
+.feedback_menu_item
+{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    border-bottom: 2px transparent solid;
+}
+.feedback_menu_item:hover
+{
+    color: #000;
+    border-bottom: 2px #000 solid;
+}
+.feedback_menu_item:active
+{
+    border-bottom: 2px #000 solid;
+}
+.feedback_items
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback_items .feedback_item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.feedback_items .feedback_item .item_title
+{
+    position: relative;
+}
+.feedback_items .feedback_item .item_title h1
+{
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.feedback_items .feedback_item .item_title p
+{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 454px;
+}
+.feedback_items .feedback_item .item_title .new_price
+{
+    font-family: Hind Madurai;
+font-size: 26px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+}
+.feedback_items .feedback_item .item_title .old_price
+{
+    font-family: Hind Madurai;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+text-decoration: line-through;
+}
+.feedback_items .feedback_item .item_title button
+{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 165px;
+    height: 49px;
+    border: 2px transparent solid;
+    border-radius: 5px;
+    background-color: #D64374;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.feedback_items .feedback_item .item_title button:hover
+{
+    background-color: transparent;
+    border: 2px solid #D64374;
+    color: #D64374;
+    transition: 0.3s;
+
+}
+.feedback_title
+{
+    position: relative;
+    justify-content: center;
+    width: 40%;
+    margin-right: 224px;
+}
+.feedback_title .feedback_profile
+{
+    position: absolute;
+}
+.feedback_title h1
+{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 80px;
+}
+.feedback_title .nation
+{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.feedback_title .feedback_desc
+{
+    width: 322px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.navigation
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation button
+{
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    border: none;
+}
+.navigation button:hover
+{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.navigation .left
+{
+    background: url(../icons/rigth.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: scaleX(-1);
+}
+.navigation .right
+{
+    background: url(../icons/rigth.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.navigation a
+{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pro1 img, #pro3 img
+{
+    width: 50%;
+}
+
+.download
+{
+    position: relative;
+    width: 100%;
+    height: 660px;
+    background-color: #F8EDF0;
+    padding-top: 90px;
+    padding-left: 659px;
+}
+.download .content
+{
+    /* width: 621px; */
+}
+.download .content h1
+{
+    font-family: Roboto;
+font-size: 35px;
+font-weight: 500;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 20px;
+}
+.download .content p
+{
+    width: 600px;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.01em;
+text-align: left;
+margin-bottom: 31px;
+}
+.download .content h3
+{
+    font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.download .content .dwn1
+{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 17px;
+}
+
+.download .content .dwn
+{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.download .content button
+{
+    width: 200px;
+    height: 77px;
+    border: none;
+}
+.download .content .playmarket
+{
+    background: url(../icons/playmarket.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.download .content .appstore
+{
+    background: url(../icons/appstore.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.download .main_img
+{
+    position: absolute;
+    left: 229px;
+    top: 59px;
+}
+.ask_question
+{
+    width: 100%;
+    height: 565px;
+    background-color: #ffffff;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.ask_question .title
+{
+    width: 322px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.ask_question .body
+{
+    position: relative;
+    width: 637px;
+}
+.ask_question .body .telephone
+{
+    padding-left: 25px;
+    width: 303px;
+    height: 74px;
+    margin-right: 25.5px;
+    border: 1px solid #FFA3A3;
+}
+.ask_question .body .q_type
+{
+    padding-left: 25px;
+    width: 303px;
+    height: 74px;
+    border: 1px solid #FFA3A3
+}
+.ask_question .body .question
+{
+    padding-left: 25px;
+    margin-top: 37px;
+    width: 637px;
+    height: 74px;
+    border: 1px solid #FFA3A3
+}
+.ask_question .body button
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 134px;
+    height: 74px;
+    background-color: #D64374;
+    border: 2px transparent solid;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.ask_question .body button:hover
+{
+    background-color: transparent;
+    border: 2px #D64374 solid;
+    color: #D64374;
+    transition: 0.3s;
+}
+footer
+{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.footer_cards
+{
+    position: relative;
+    width: 100%;
+    height: 381px;
+    padding-top: 150px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.footer_cards .footer_card
+{
+    width: 150px; 
+}
+.footer_cards .card1 #img_logo
+{
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+.footer_cards .card1
+{
+    width: 227px;
+}
+.footer_cards .card1 p
+{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+.footer_cards .footer_menu .footer_item 
+{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer_cards .card2 .footer_item
+{
+    margin-bottom: 10px;
+}
+.footer_cards .card3
+{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.footer_card .footer_links .extra_item
+{
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.footer_cards .card4
+{
+    width: 388px;
+    position: relative;
+}
+.footer_cards .card4 h2
+{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.footer_cards .card4 input
+{
+    width: 388px;
+    height: 55px;
+    border: 1px #D64374 solid;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-bottom: 16.69px;
+}
+
+.footer_cards .card4 button
+{
+    position: absolute;
+    top: 33px;
+    right: 0;
+    width: 125px;
+    height: 54.5px;
+    background-color: #D64374;
+    border: 2px transparent solid;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.footer_cards .card4 button:hover
+{
+    border: 2px #D64374 solid;
+    background-color: transparent;
+    color: #D64374;
+    transition: 0.3s;
+}
